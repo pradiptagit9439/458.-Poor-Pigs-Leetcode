@@ -1,0 +1,8 @@
+int poorPigs(int buckets, int minutesToDie, int minutesToTest) {
+        
+        double d=log(minutesToTest/minutesToDie +1);
+       
+        int ans=ceil(log(buckets)/d);
+        
+        return ans;
+    }
